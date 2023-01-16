@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #e5989b;
   text-decoration: none;
 }
 
@@ -221,7 +221,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #e5989b;
 }
 
 .nav-menu a:hover span,
@@ -321,7 +321,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #fd5757;
   letter-spacing: 1px;
 }
 
@@ -339,7 +339,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #e5989b;
 }
 
 @media (max-width: 992px) {
@@ -399,7 +399,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #e5989b;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -518,7 +518,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #e5989b;
 }
 
 /*--------------------------------------------------------------
@@ -545,7 +545,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #e5989b;
   margin-bottom: 10px;
 }
 
@@ -1026,15 +1026,17 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  justify-content: center;
+  display: inline-flex;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #e5989b;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #f3e6f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1058,14 +1060,15 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .address {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #e5989b;
   color: #fff;
 }
 
@@ -1202,7 +1205,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #e5989b;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1215,7 +1218,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #eedaef;
   color: #fff;
   text-decoration: none;
 }
